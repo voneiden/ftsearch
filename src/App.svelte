@@ -5,12 +5,12 @@
     let query = "";
     let language = "fi";
     let apiData = null;
-    let selectedHost = 'https://linkedevents.api.staging.hel.ninja';
+    let selectedHost = 'https://linkedevents.api.stage.hel.ninja';
     const options = [
         'http://localhost:8000',
         'https://linkedevents.api.dev.hel.ninja',
         "https://linkedevents.api.test.hel.ninja",
-        "https://linkedevents.api.staging.hel.ninja",
+        "https://linkedevents.api.stage.hel.ninja",
         "https://api.hel.fi/linkedevents"
     ];
 
