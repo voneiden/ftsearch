@@ -2,7 +2,7 @@ name: Build test image
 on:
   push:
     branches:
-      - dev
+      - master
 jobs:
   build-and-publish-image:
     name: "Build and publish image to GitHub Container Registry"
